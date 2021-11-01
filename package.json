@@ -4,7 +4,7 @@
   "description": "Telegram movie search bot",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
+    "start": "node .",
     "watch": "nodemon --ignore db.json",
     "clean_db": "echo > db.json"
   },
